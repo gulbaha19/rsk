@@ -1,0 +1,84 @@
+.secten{
+    background-color: #f6f6f6;
+}
+.secten-top{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.secten-top h1{color: #333;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    text-transform: capitalize;}
+.quote{
+    word-spacing: 1px;
+    margin: 0;
+    width: 90%;
+    text-align: left !important;
+}
+.secten-bt{
+    width: 80;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 35px 25px 35px 50px;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    display: flex;
+}
+.secten-bt::after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    transform: rotate(45deg);
+}
+.secten-icon{
+    background-color: #41cb52;
+    width: 50px;
+    height: 45px;
+    font-size: 22px;
+    top: 37px;
+    color: white;
+    line-height: 42px;
+    left: -19px;
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+}
+.secten-icon::before{
+    content: "";
+    border-bottom: 16px solid #41cb52;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+.secten-name h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.secten-name{display: block;
+    font-size: 14px;
+    color: #41cb52;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.ten-bt{
+    display: flex;
+    width: 86%;
+    margin-left: 7%;
+}

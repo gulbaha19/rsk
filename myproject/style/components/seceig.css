@@ -1,0 +1,107 @@
+.seceig-top{
+    text-align: center;
+   padding-top: 10px !important;
+   width: 60%;
+   margin-left: 20%;
+}
+.seceig{
+    padding-top: 0;
+}
+.people{
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-radius: 3px;
+    padding: 30px 0 60px; 
+    position: relative;
+    margin: 0 15px;
+    text-align: center;
+    width: 200px;
+    transition: .3s;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+  
+}
+
+
+
+.people img{
+    border-radius: 100px;
+    z-index: 1;
+    position: relative;
+    transition: .6s;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    padding: 0 !important;
+    /* margin-top: 10px; */
+    display: block;
+    overflow: hidden;
+    border: 10px solid none;
+
+}
+.bck-round{
+    border-radius: 180px;
+    position: relative;
+    transition: .6s;
+    background-color: #f8f8f8;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people:hover .bck-round{
+    background: #41cb52;
+
+}
+.seceig-bt{
+    display: flex;
+    justify-content: space-around;
+}
+.people h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+    letter-spacing: 0px;
+    color: #333;
+    margin-top: 40px;
+}
+.people p{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.people:hover img{
+    transform: scale(.95);
+    border: rgb(241, 232, 228) solid 10px;
+}
+.ppl-social{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    background-color: #41cb52;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.people:hover .ppl-social{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+.ppl-social a{
+    color: white;
+    width: 40px;
+    font-size: 17px;
+    display: block;
+    transition: .3s;
+    padding: 10px;
+    margin-bottom: 0!important;
+}

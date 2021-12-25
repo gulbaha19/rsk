@@ -1,0 +1,29 @@
+.secfour{
+    height: 500px;
+    background-image: url(../../images/about2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.thingsfour{
+    width: 50%;
+    background-color: #282828;
+    margin-left: 50%;
+    height: 100%;
+}
+.rightfour{
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+   padding-top: 100px;
+}
+#jfycc{
+    color: white !important;
+}
+#loremthreec{
+    color: #eee !important;
+}
+.color-white:hover{
+    background-color: white !important;
+    color: #282828;
+}

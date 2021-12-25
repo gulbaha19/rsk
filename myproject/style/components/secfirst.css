@@ -1,0 +1,89 @@
+.secfirst{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../images/home-bg.jpg');
+    /* height: 500px; */
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50% 50%;
+    /* filter: contrast(110%) brightness(80%); */
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 20%;
+}
+.secfirsttext{
+    color: white !important;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 12%;
+}
+#youare{
+    color: #eee;
+    font-size: 34px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+#ex{    color: #fff !important;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: -10px;
+   text-transform: capitalize;
+    text-align: center !important;
+    position: relative;
+    padding-bottom: -10px;
+}
+#lo{    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+     margin-bottom: 25px; 
+    margin-top: 5px;
+    word-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: -20px;
+}
+.homebutton{
+    text-align: center !important;
+    
+}
+.onelearn{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 18px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s;
+    margin-right:20px;
+   
+
+
+}
+.onelearn:hover{
+    background-color: white;
+    color: #669;
+}
+.twolearn{
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #41cb52;
+    background-color: #41cb52;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 18px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s; 
+}
+.twolearn:hover{
+    color: #669;
+    background-color:white;
+    border: 2px solid white;
+}

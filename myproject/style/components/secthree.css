@@ -1,0 +1,72 @@
+.secthree{
+    height: 530px;
+    background-image: url(../../images/twop.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+    
+}
+.thingsthree{
+    width: 50%;
+    background-color: #eee;
+    height: 530px;
+    margin-top: 0;
+}
+.leftthree{
+    width: 70%;
+    margin-left: 15%;
+     text-align: center; 
+    padding-top: 100px;
+    /* vertical-align: middle; */
+}
+.wdf{
+    color: #41cb52;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.jfyc{
+text-transform: capitalize;
+font-size: 36px;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+color: #333;
+letter-spacing: 0;
+margin-bottom: 30px;
+}
+.loremthree{
+    word-spacing: 1px;
+    text-align: center;
+        line-height: 25px;
+    font-size: 15px;
+    color: #666;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.buttonthree{
+    color: white;
+    background-color: #41cb52;
+    padding: 16px 40px;
+    border-radius: 500px;
+    font-family: "Open Sans";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+.buttonthree:hover{
+    background-color: #282828;
+}
+.buttonthree i{
+    margin-left: 8px;
+}
+.icth{
+    font-size: 12px;
+
+}
